@@ -1,6 +1,6 @@
 # Nome Do Projeto
 
-**descrição resumida do projeto**
+Este projeto tem como objetivo calcular as principais métricas de um retângulo a partir de sua largura e altura, exibindo **área**, **perímetro** e **diagonal**.
 
 Este projeto foi desenvolvido de forma incremental, registrando a evolução do código em uma abordagem **orientada a objetos**.
 
@@ -15,14 +15,18 @@ Este projeto foi desenvolvido de forma incremental, registrando a evolução do 
 
 ## Enunciado do Problema
 
-**descrição detalhada do problema resolvido no projeto**
+Fazer um programa para ler os valores da **largura** e **altura** de um retângulo. Em seguida, mostrar na tela:
+
+- O valor da área
+- O valor do perímetro
+- O valor da diagonal
 
 ## Estrutura do Projeto
 
 ```bash
-|- NomeProjeto
-   |- NomeProjeto.csproj
-   |- NomeProjeto.sln
+|- MetricasRetangulo
+   |- MetricasRetangulo.csproj
+   |- MetricasRetangulo.sln
    |- Program.cs
 ```
 
@@ -34,5 +38,4 @@ Este projeto foi desenvolvido de forma incremental, registrando a evolução do 
 
 ## Objetivo Educacional
 
-Este projeto **não tem como foco a solução final perfeita**, mas sim o processo de
-aprendizado e a comparação entre abordagens diferentes para o mesmo problema.
+Este projeto **não tem como foco a solução final perfeita**, mas sim o processo de aprendizado e a comparação entre abordagens diferentes para o mesmo problema.
