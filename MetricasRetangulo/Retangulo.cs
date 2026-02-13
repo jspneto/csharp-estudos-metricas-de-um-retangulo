@@ -5,6 +5,7 @@ namespace MetricasRetangulo;
 
 class Retangulo
 {
+    public string Nome = "ABCD";
     public double Largura;
     public double Altura;
 
@@ -40,7 +41,8 @@ class Retangulo
 
     public override string ToString()
     {
-        return "Lados = "
+        return $"Nome = {Nome}\n"
+            + "Lados = "
             + $"{Largura.ToString("F2", CultureInfo.InvariantCulture)} uc, "
             + $"{Altura.ToString("F2", CultureInfo.InvariantCulture)} uc\n"
             + $"Área = {Area().ToString("F2", CultureInfo.InvariantCulture)} ua\n"
