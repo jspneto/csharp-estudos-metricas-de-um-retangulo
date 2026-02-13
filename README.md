@@ -36,9 +36,12 @@ Fazer um programa para ler os valores da **largura** e **altura** de um retângu
 ## Evolução do Projeto (Tags)
 
 - [**v0.1**][1] — Classe Retangulo com override de ToString
+  - [**v0.1.1**][2] — Reorganização estrutural e inclusão de nome
 
 ## Objetivo Educacional
 
 Este projeto **não tem como foco a solução final perfeita**, mas sim o processo de aprendizado e a comparação entre abordagens diferentes para o mesmo problema.
 
 [1]: https://github.com/jspneto/csharp-estudos-metricas-de-um-retangulo/tree/v0.1/MetricasRetangulo "v0.1"
+
+[2]: https://github.com/jspneto/csharp-estudos-metricas-de-um-retangulo/tree/v0.1.1/MetricasRetangulo "v0.1"
