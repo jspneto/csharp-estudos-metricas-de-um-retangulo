@@ -25,8 +25,11 @@ class Retangulo
 
     public override string ToString()
     {
-        return "Área = " + Area().ToString("F2", CultureInfo.InvariantCulture) + " ua.\n"
-            + "Perímetro = " + Perimetro().ToString("F2", CultureInfo.InvariantCulture) + " uc.\n"
-            + "Diagonal = " + Diagonal().ToString("F2", CultureInfo.InvariantCulture) + " uc.";
+        return "Lados = "
+            + $"{Largura.ToString("F2", CultureInfo.InvariantCulture)} uc, "
+            + $"{Altura.ToString("F2", CultureInfo.InvariantCulture)} uc\n"
+            + $"Área = {Area().ToString("F2", CultureInfo.InvariantCulture)} ua\n"
+            + $"Perímetro = {Perimetro().ToString("F2", CultureInfo.InvariantCulture)} uc\n"
+            + $"Diagonal = {Diagonal().ToString("F2", CultureInfo.InvariantCulture)} uc";
     }
 }
